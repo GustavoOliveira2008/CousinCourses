@@ -48,6 +48,62 @@ nav a:hover {
     background: #fafafa36;
     box-shadow: 2px 2px 4px #ffffffcb;
 }
+/* BOTÃO MENU */
+.menu-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+/* MENU LATERAL */
+.menu {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 250px;
+  height: 100vh;
+  background: #010111;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+/* MENU ABERTO */
+.menu.open {
+  left: 0;
+}
+
+/* LINKS */
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background: #23034e;
+}
+
+/* BOTÃO FECHAR */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
 
 /* BOX */
             .box {
