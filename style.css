@@ -30,6 +30,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 nav a {
     text-decoration: none;
@@ -131,3 +133,14 @@ nav a:hover {
                     font-size: 1.2rem;
                 }
             }
+        @media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: 90%;
+        text-align: center;
+        padding: 10px;
+    }
+        }
