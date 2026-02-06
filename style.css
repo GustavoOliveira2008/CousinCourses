@@ -31,17 +31,10 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    padding: 0;
-    margin: 0;
-}
-
 nav a {
     text-decoration: none;
+    width: auto;
+    height: auto;
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
