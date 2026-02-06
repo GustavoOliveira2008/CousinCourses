@@ -17,14 +17,14 @@ h1 {
     text-align: center;
 }
 /*  HEADER  */
-header {
+/*header {
     background: linear-gradient(to top, #23034eb9 , #010111);
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1000;
     padding: 10px 0;
-}
+}*/
 
 nav {
     display: flex;
@@ -90,7 +90,7 @@ nav a:hover {
 }
 
 .menu a:hover {
-  background: #23034e;
+  background: #120129;
 }
 
 /* BOTÃO FECHAR */
@@ -148,9 +148,12 @@ nav a:hover {
             }
 /* RODAPÉ  */
             .rodapé {
+                display: flex;
                 width: 100%;
                 height: 10%;
                 background: linear-gradient(to top, #010111, #23034e11);
+                gap: 10px;
+                align-items: center;
                 text-align: center;
                 color: white;
                 padding: 10px;
