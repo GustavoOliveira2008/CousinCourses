@@ -38,7 +38,6 @@ p{
   background-position: center;
   border-radius: 13px;
   margin-top: 5px;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,3 +90,4 @@ p{
         width: 90%; /* Ajusta largura das boxes para telas menores */
     }
 }
+
